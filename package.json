@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "learnweb",
+  "description": "learnweb",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
