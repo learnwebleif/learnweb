@@ -24,7 +24,7 @@
   }
 
   .startImage-big {
-    visibility: hidden;
+    display: none;
   }
 
   @media only screen and (min-width: 415px) {
@@ -37,7 +37,7 @@
       z-index: -1;
     }
     .startImage-big {
-    visibility: visible;
+    display: block;
   }
     img {
     width: 100%;
