@@ -21,17 +21,17 @@
 		clear: both;
 	}
 
-	li {
+	/* li {
 		display: block;
 		float: left;
-	}
+	} */
 
-	.selected {
+	/* .selected {
 		position: relative;
 		display: inline-block;
-	}
+	} */
 
-	.selected::after {
+	/* .selected::after {
 		position: absolute;
 		content: '';
 		width: calc(100% - 1em);
@@ -39,13 +39,13 @@
 		background-color: rgb(255,62,0);
 		display: block;
 		bottom: -1px;
-	}
+	} */
 
-	a {
+	/* a {
 		text-decoration: none;
 		padding: 1em 0.5em;
 		display: block;
-	}
+	} */
 </style>
 
 <nav>
