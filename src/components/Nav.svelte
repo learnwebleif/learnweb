@@ -107,22 +107,22 @@
   <div class="menu-items">
     <ul>
       <li>
-        <a class={segment === undefined ? 'selected' : ''} href=".">home</a>
+        <a class={segment === 'Github' ? 'selected' : ''} href="https://github.com/learnwebleif/learnweb"><img width="20px" src="github.svg" alt="Github"></a>
       </li>
       <li>
-        <a class={segment === 'about' ? 'selected' : ''} href="about">about</a>
+        <a class={segment === 'kontakt' ? 'selected' : ''} href="contact">kontakt</a>
       </li>
 
       <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
-      <li>
+      <!-- <li>
         <a
           rel="prefetch"
           class={segment === 'blog' ? 'selected' : ''}
           href="blog">
-          blog
+          blogg
         </a>
-      </li>
+      </li> -->
     </ul>
   </div>
 </nav>

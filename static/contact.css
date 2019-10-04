@@ -1,0 +1,66 @@
+input, select, textarea {
+    display: block;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    min-height: 140px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    border: 1px solid #ccc;
+    padding: 0.2rem 0.5rem;
+    font: inherit;
+}
+
+#send {
+    -webkit-box-direction: normal;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "pnum";
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    white-space: nowrap;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    text-decoration: none;
+    transition: all .15s ease;
+    color: #fff;
+    background: #6772e5;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+#send:hover {
+    transform: translateY(-1px);
+    background-color: #7795f8;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    background: rgb(243, 243, 243);
+    border-color: #8ddda2;
+}
+
+@media (min-width: 40rem) {
+    form {
+        width: 30rem;
+    }
+}

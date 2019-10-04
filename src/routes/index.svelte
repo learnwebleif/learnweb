@@ -2,14 +2,15 @@
   @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
 
   #logo {
-    margin-left: 10px;
+    margin-left: 0;
     margin-top: 40px;
   }
 
   h2 {
     font-family: "Overpass", sans-serif;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 700;
+    color: #4f4f4f;
   }
 
   #small {
@@ -26,7 +27,89 @@
     display: none;
   }
 
+  .service {
+    background: white;
+    font-size: 0.8rem;
+  }
+
+  .service h2 {
+    color: white;
+  }
+
+  .frameworks {
+    border: 0.6rem solid white;
+    padding: 1.8em;
+    padding-bottom: 2.5rem;
+    border-radius: 1rem;
+    background: rgb(25, 164, 161);
+    background: radial-gradient(
+      circle,
+      rgba(25, 164, 161, 1) 0%,
+      rgba(25, 163, 160, 1) 57%,
+      rgba(20, 147, 144, 1) 91%
+    );
+    color: #f8f8f8;
+  }
+
+  .lms {
+    border: 0.6rem solid white;
+    padding: 1.8em;
+    padding-bottom: 2.5rem;
+    border-radius: 1rem;
+    background: rgb(59, 162, 231);
+    background: radial-gradient(
+      circle,
+      rgba(59, 162, 231, 1) 0%,
+      rgba(56, 164, 235, 1) 47%,
+      rgba(60, 157, 221, 1) 98%
+    );
+    color: #f8f8f8;
+  }
+
   @media only screen and (min-width: 415px) {
+
+    .service {
+      background: white;
+      display: flex;
+      font-size: 0.8rem;
+    }
+
+    .service h2 {
+      color: white;
+    }
+
+    .frameworks {
+      width: 50%;
+      border: 0.6rem solid white;
+      padding: 1.8em;
+      padding-bottom: 2.5rem;
+      border-radius: 1rem;
+      background: rgb(25, 164, 161);
+      background: radial-gradient(
+        circle,
+        rgba(25, 164, 161, 1) 0%,
+        rgba(25, 163, 160, 1) 57%,
+        rgba(20, 147, 144, 1) 91%
+      );
+      color: #f8f8f8;
+    }
+
+    .lms {
+      width: 50%;
+      border: 0.6rem solid white;
+      padding: 1.8em;
+      padding-bottom: 2.5rem;
+      border-radius: 1rem;
+      background: rgb(59, 162, 231);
+      background: radial-gradient(
+        circle,
+        rgba(59, 162, 231, 1) 0%,
+        rgba(56, 164, 235, 1) 47%,
+        rgba(60, 157, 221, 1) 98%
+      );
+      color: #f8f8f8;
+    }
+
     .page-container {
       border: 0.6rem solid white;
       border-bottom: 0;
@@ -48,47 +131,6 @@
       /* max-width: 400px; */
       margin: 0 0 1em 0;
     }
-    #logo {
-      margin-left: 0;
-      margin-top: 40px;
-    }
-  }
-  .service {
-    background: white;
-    display: flex;
-    font-size: 0.8rem;
-  }
-
-  .frameworks {
-    width: 50%;
-    border: 0.6rem solid white;
-    padding: 1.8em;
-    padding: 1.8em;
-    border-radius: 1rem;
-    background: rgb(25, 164, 161);
-    background: radial-gradient(
-      circle,
-      rgba(25, 164, 161, 1) 0%,
-      rgba(25, 163, 160, 1) 57%,
-      rgba(20, 147, 144, 1) 91%
-    );
-    color: #f8f8f8;
-  }
-
-  .lms {
-    width: 50%;
-    border: 0.6rem solid white;
-    padding: 1.8em;
-    padding-bottom: 1em;
-    border-radius: 1rem;
-    background: rgb(59, 162, 231);
-    background: radial-gradient(
-      circle,
-      rgba(59, 162, 231, 1) 0%,
-      rgba(56, 164, 235, 1) 47%,
-      rgba(60, 157, 221, 1) 98%
-    );
-    color: #f8f8f8;
   }
 </style>
 
@@ -103,7 +145,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     style="isolation:isolate"
     viewBox="0 0 205 53.838"
-    width="205pt"
+    width="180pt"
     height="53.838pt">
     <defs>
       <clipPath id="_clipPath_0MDbOLkMMELSOJaGz2vTt8LnUrsXbtJY">
@@ -123,7 +165,7 @@
       </text>
     </g>
   </svg>
-  <h2>Uveckling av digitala lärresurser</h2>
+  <h2 class="color: #4f4f4f">Uveckling av digitala lärresurser</h2>
   <div class="startImage-small">
     <img
       id="small"
@@ -137,18 +179,20 @@
 </div>
 <div class="service">
   <div class="frameworks">
-    <h2>Webbdesign</h2>
+    <h2>Webbutveckling</h2>
     <p>
-      Vår metod gör vi det möjligt för företag och utbildningsorganisationer
-      att arbeta effektivt med kunskapshantering.
+      Med hjälp av moderna ramverk för webbutveckling gör vi det möjligt för
+      företag och utbildningsorganisationer att arbeta effektivt med
+      kunskapshantering.
     </p>
-    <button style="float:right;">Läs mer</button>
+    <a style="float: right;" href="webdesign">Läs mer</a>
   </div>
   <div class="lms">
-    <h2>System</h2>
+    <h2>Pedagogik</h2>
     <p>
-      Vi är experter på LMS och hur digitala lösningar kan skapa mervärde för både utbildare och studenter.
+      Vi är experter på lärsystem och hur digital pedagogisk utveckling kan
+      skapa mervärde för utbildare och studenter.
     </p>
-    <button style="float: right;">Läs mer</button>
+    <a style="float: right;" href="pedagogy">Läs mer</a>
   </div>
 </div>
