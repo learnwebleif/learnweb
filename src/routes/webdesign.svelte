@@ -165,21 +165,5 @@
   </figure>
 </div>
 
-<h2>Kontakt</h2>
-
-<form
-  id="contact-form"
-  action="https://getform.io/f/d1489453-2da8-4b4c-abea-3216b53852ee"
-  method="POST">
-  <div id="form-header">
-    <p>Skriv om du vill komma i kontakt med oss.</p>
-</div>
-  <label>Namn:</label>
-  <input type="text" name="name" />
-  <label>E-post:</label>
-  <input type="email" name="email" />
-  <label>Meddelande:</label>
-  <textarea name="comment" maxlength="500" form="contact-form"></textarea>
-  <button id="send" type="submit">Skicka</button>
-</form>
+<a href="contact"><button id="send">Kontakt</button></a> <a href="pedagogy"><button id="send">Pedagogik</button></a>
 

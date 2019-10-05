@@ -1,5 +1,8 @@
 <script>
   import { onMount } from "svelte";
+  import Modal from './Modal.svelte';
+
+	let showModal = false;
 
   onMount(() => {
     const formElement = document.querySelector("#contact-form");
@@ -10,9 +13,10 @@
         method: "post",
         body: data
       });
-      alert("Thank you for submitting");
+      showModal = true;
     });
   });
+
 </script>
 
 <style>
@@ -42,3 +46,12 @@ form {
   <textarea name="comment" maxlength="500" form="contact-form"></textarea>
   <button id="send" type="submit">Skicka</button>
 </form>
+{#if showModal}
+	<Modal on:close="{() => showModal = false}">
+		<h2 slot="header">
+			Tack!
+		</h2>
+
+		<p>Tack för att du kontaktar oss. Vi kontaktar dig så snart vi kan.</p>
+	</Modal>
+{/if}
