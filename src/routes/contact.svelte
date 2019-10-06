@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import Modal from './Modal.svelte';
+  import Modal from '../components/Modal.svelte';
 
 	let showModal = false;
 
