@@ -49,7 +49,7 @@ form {
 {#if showModal}
 	<Modal on:close="{() => showModal = false}">
 		<h2 slot="header">
-			Tack!
+			Skickat!
 		</h2>
 
 		<p>Tack för att du kontaktar oss. Vi kontaktar dig så snart vi kan.</p>

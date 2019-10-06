@@ -68,7 +68,7 @@ onMount(() => {
 </p>
 
 <p>
-  <a href="webdesign">Läs mer</a>
+  <a href="https://learnweb.se/webdesign">Läs mer</a>
   om Vuepress och teknisk dokumentation.
 </p>
 
@@ -91,4 +91,4 @@ onMount(() => {
   margin-bottom: 4rem;">
 </div>
 
-<a href="contact"><button id="send">Kontakt</button></a> <a href="webdesign"><button id="send">webbutveckling</button></a>
+<a href="https://learnweb.se/contact"><button id="send">Kontakt</button></a>

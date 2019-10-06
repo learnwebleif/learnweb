@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import { goto } from '@sapper/app'
 
   onMount(() => {
     const formElement = document.querySelector("#contact-form");
@@ -53,7 +54,7 @@
   med ett LMS för att spara t.ex. progression eller resultat från ett test etc.
 </p>
 <p>
-  <a href="pedagogy">Läs mer</a>
+  <a href="https://learnweb.se/pedagogy">Läs mer</a>
   om SCORM och LMS.
 </p>
 
@@ -102,7 +103,7 @@
   </p>
 
   <p>
-    <a href="pedagogy">Läs mer</a>
+    <a href="https://learnweb.se/pedagogy">Läs mer</a>
     om webbpedagogik.
   </p>
 </div>
@@ -165,5 +166,5 @@
   </figure>
 </div>
 
-<a href="contact"><button id="send">Kontakt</button></a> <a href="pedagogy"><button id="send">Pedagogik</button></a>
+<a href="https://learnweb.se/contact"><button id="send">Kontakt</button></a>
 
