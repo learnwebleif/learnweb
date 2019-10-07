@@ -8,8 +8,8 @@
 
   h2 {
     font-family: "Overpass", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 500;
     color: #4f4f4f;
   }
 
@@ -67,7 +67,6 @@
   }
 
   @media only screen and (min-width: 415px) {
-
     .service {
       background: white;
       display: flex;
@@ -132,6 +131,29 @@
       margin: 0 0 1em 0;
     }
   }
+
+  a:after {
+    padding-left: 0.5rem;
+    content: url("arrow.svg");
+  }
+
+  .learn-more {
+    -webkit-box-direction: normal;
+font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+font-feature-settings: "pnum";
+font-variant-numeric: proportional-nums;
+box-sizing: border-box;
+text-decoration: none;
+-webkit-tap-highlight-color: transparent;
+outline: none;
+font-size: 17px;
+font-weight: 500;
+transition: color .1s ease;
+cursor: pointer;
+  }
 </style>
 
 <svelte:head>
@@ -165,7 +187,7 @@
       </text>
     </g>
   </svg>
-  <h2 class="color: #4f4f4f">Uveckling av digitala lärresurser</h2>
+  <h2 class="color: #4f4f4f">Utveckling av digitala lärresurser</h2>
   <div class="startImage-small">
     <img
       id="small"
@@ -177,15 +199,21 @@
     <img width="800px" src="larresurs_big.png" alt="Lärresurs" />
   </div>
 </div>
+<div>
+  <p>
+    Genom att använda moderna ramverk för webbutveckling skapar learnweb
+    tillsammans med pedagoger framtidens digitala resurser.
+  </p>
+</div>
 <div class="service">
   <div class="frameworks">
     <h2>Webbutveckling</h2>
     <p>
-      Med hjälp av moderna ramverk för webbutveckling gör vi det möjligt för
+      Vi det möjligt för
       företag och utbildningsorganisationer att arbeta effektivt med
       kunskapshantering.
     </p>
-    <a style="float: right;" href="webdesign">Läs mer</a>
+    <a class="learn-more" style="float: right;" href="webdesign">Läs mer</a>
   </div>
   <div class="lms">
     <h2>Pedagogik</h2>
@@ -193,6 +221,6 @@
       Vi är experter på lärsystem och hur digital pedagogisk utveckling kan
       skapa mervärde för utbildare och studenter.
     </p>
-    <a style="float: right;" href="pedagogy">Läs mer</a>
+    <a class="learn-more" style="float: right;" href="pedagogy">Läs mer</a>
   </div>
 </div>

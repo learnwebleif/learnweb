@@ -1,3 +1,6 @@
+<svelte:head>
+	<title>Kontakt</title>
+</svelte:head>
 <script>
   import { onMount } from "svelte";
   import Modal from '../components/Modal.svelte';

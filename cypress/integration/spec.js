@@ -16,4 +16,12 @@ describe('Sapper template app', () => {
 		cy.get('nav a').contains('blog').click();
 		cy.url().should('include', '/blog');
 	});
+	it('navigates to /webdesign', () => {
+		cy.get('nav a').contains('webdesign').click();
+		cy.url().should('include', '/webdesign');
+	});
+	it('navigates to /pedagogy', () => {
+		cy.get('nav a').contains('pedagogy').click();
+		cy.url().should('include', '/pedagogy');
+	});
 });

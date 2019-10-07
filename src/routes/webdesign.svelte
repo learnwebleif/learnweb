@@ -1,20 +1,6 @@
-<script>
-  import { onMount } from "svelte";
-  import { goto } from '@sapper/app'
-
-  onMount(() => {
-    const formElement = document.querySelector("#contact-form");
-    formElement.addEventListener("submit", event => {
-      event.preventDefault();
-      const data = new URLSearchParams(new FormData(formElement));
-      fetch("https://getform.io/f/d1489453-2da8-4b4c-abea-3216b53852ee", {
-        method: "post",
-        body: data
-      });
-      alert("Thank you for submitting");
-    });
-  });
-</script>
+<svelte:head>
+	<title>Webbutveckling</title>
+</svelte:head>
 
 <h1>Webbutveckling</h1>
 
@@ -36,7 +22,6 @@
   <a href="https://tailwindcss.com/">tailwindcss.</a>
 </p>
 
-
 <div
   style="display: flex; justify-content: space-between; margin-top: 4rem; margin-bottom: 5rem">
   <img width="75" height="23" src="svelte.png" alt="Svelte" />
@@ -54,7 +39,7 @@
   med ett LMS för att spara t.ex. progression eller resultat från ett test etc.
 </p>
 <p>
-  <a href="https://learnweb.se/pedagogy">Läs mer</a>
+  <a href="@html pedagogy">Läs mer</a>
   om SCORM och LMS.
 </p>
 
@@ -143,7 +128,7 @@
   style="display: flex; margin-top: 2rem;
   margin-bottom: 3rem;">
   <figure>
-    <img width="350px" src="stom.png" alt="exempel på e-kurs" />
+    <img width="319px" src="stom.png" alt="exempel på e-kurs" />
     <figcaption>Stöd- och matchningstjänst</figcaption>
   </figure>
 </div>
@@ -152,7 +137,7 @@
   style="display: flex; margin-top: 2rem;
   margin-bottom: 3rem;">
   <figure>
-    <img width="350px" src="lmsecourse.png" alt="exempel på e-kurs" />
+    <img width="319px" src="lmsecourse.png" alt="exempel på e-kurs" />
     <figcaption>Kurs i LMS (itslearning)</figcaption>
   </figure>
 </div>
@@ -161,10 +146,10 @@
   style="display: flex; margin-top: 2rem;
   margin-bottom: 5rem;">
   <figure>
-    <img width="350px" src="tekniskdok.png" alt="exempel på e-kurs" />
+    <img width="319px" src="tekniskdok.png" alt="exempel på e-kurs" />
     <figcaption>Teknisk dokumentation</figcaption>
   </figure>
 </div>
 
-<a href="https://learnweb.se/contact"><button id="send">Kontakt</button></a>
+<a href="contact"><button id="send">Kontakta oss</button></a>
 

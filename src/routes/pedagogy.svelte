@@ -1,21 +1,7 @@
-<script>
+<svelte:head>
+	<title>Pedagogik</title>
+</svelte:head>
 
-import {onMount} from 'svelte';
-
-onMount(() => {
-    const formElement = document.querySelector('#contact-form');
-    formElement.addEventListener('submit', (event) => {
-        event.preventDefault();
-        const data = new URLSearchParams(new FormData(formElement));
-        fetch('https://getform.io/f/d1489453-2da8-4b4c-abea-3216b53852ee', {
-            method: 'post',
-            body: data
-        });
-        alert('Thank you for submitting')
-    })
-})
-
-</script>
 
 <h1>Pedagogik</h1>
 
@@ -91,4 +77,4 @@ onMount(() => {
   margin-bottom: 4rem;">
 </div>
 
-<a href="https://learnweb.se/contact"><button id="send">Kontakt</button></a>
+<a href="contact"><button id="send">Kontakta oss</button></a>
