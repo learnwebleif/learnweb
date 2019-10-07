@@ -1,14 +1,35 @@
-<svelte:head>
-	<title>Webbutveckling</title>
-</svelte:head>
+<style>
 
+  img {
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    max-width: 100%;
+  }
+.contact-button{
+  margin-top: 2rem;
+}
+
+  @media (min-width: 40rem) {
+    img {
+      display: block;
+      margin-top: 4rem;
+      margin-bottom: 5rem;
+      max-width: 370px;
+    }
+  }
+</style>
+
+<svelte:head>
+  <title>Webbutveckling</title>
+</svelte:head>
 <h1>Webbutveckling</h1>
 
 <p>
   Det tog över 20 år innan det tekniken blev tillräckligt mogen för att skapa
-  webbapplikationer (multimedia) om man räknar bort Adobe Flash. När
-  Facebook för 6 år sedan lanserade React var det början på en utveckling som
-  idag lett fram till flera fantastiska ramverk för att skapa webbapplikationer.
+  webbapplikationer (multimedia) om man räknar bort Adobe Flash. När Facebook
+  för 6 år sedan lanserade React var det början på en utveckling som idag lett
+  fram till flera fantastiska ramverk för att skapa webbapplikationer.
 </p>
 
 <p>
@@ -23,7 +44,8 @@
 </p>
 
 <div
-  style="display: flex; justify-content: space-between; margin-top: 4rem; margin-bottom: 5rem">
+  style="display: flex; justify-content: space-between; margin-top: 4rem;
+  margin-bottom: 5rem">
   <img width="75" height="23" src="svelte.png" alt="Svelte" />
   <img width="60" height="23" src="vue.png" alt="Vue" />
   <img width="65" height="23" src="bulma.png" alt="Bulma" />
@@ -39,14 +61,12 @@
   med ett LMS för att spara t.ex. progression eller resultat från ett test etc.
 </p>
 <p>
-  <a href="@html pedagogy">Läs mer</a>
+  <a href="pedagogy">Läs mer</a>
   om SCORM och LMS.
 </p>
 
-<div
-  style="display: flex; margin-top: 4rem;
-  margin-bottom: 5rem;">
-  <img width="100px" src="adapt.png" alt="adapt" />
+<div class="adapt">
+  <img src="adapt.png" alt="adapt" />
 </div>
 
 <h1>Vuepress</h1>
@@ -57,10 +77,8 @@
   utveckla innehåll utan att det innebär några begränsningar.
 </p>
 
-<div
-  style="display: flex; margin-top: 4rem;
-  margin-bottom: 5rem;">
-  <img width="255px" src="vuepress.png" alt="Vuepress" />
+<div class="vuepress">
+  <img src="vuepress.png" alt="Vuepress" />
 </div>
 
 <h1>Tillgänglighet</h1>
@@ -71,9 +89,11 @@
   innehållet för långsamma nätverk.
 </p>
 
-<div style="margin-top: 4rem; margin-bottom: 6rem;">
-  <img width="150px" src="talsyntes.png" alt="Tillgänglighet" />
-  <img width="300px" src="responsiv.png" alt="Tillgänglighet" />
+<div class="accesibility-1">
+  <img src="talsyntes.png" alt="Tillgänglighet" />
+</div>
+<div class="accesibility-2">
+  <img src="responsiv.png" alt="Tillgänglighet" />
 </div>
 
 <div style="margin-bottom: 7rem;">
@@ -111,8 +131,8 @@
     <a href="https://multiple-choice.learnwebleif.now.sh/">Multiple choice</a>
     utvecklad i Svelte.
   </p>
-  <div style="display: flex; padding-left: 2rem; margin-top: 2rem;">
-    <img width="255px" src="mc.png" alt="Multiple choice" />
+  <div>
+    <img src="mc.png" alt="Multiple choice" />
   </div>
 </div>
 
@@ -124,32 +144,29 @@
   projekt. Här är några exempel.
 </p>
 
-<div
-  style="display: flex; margin-top: 2rem;
-  margin-bottom: 3rem;">
+<div class="e-course">
   <figure>
-    <img width="319px" src="stom.png" alt="exempel på e-kurs" />
+    <img src="stom.png" alt="exempel på e-kurs" />
     <figcaption>Stöd- och matchningstjänst</figcaption>
   </figure>
 </div>
 
-<div
-  style="display: flex; margin-top: 2rem;
-  margin-bottom: 3rem;">
+<div class="e-course">
   <figure>
-    <img width="319px" src="lmsecourse.png" alt="exempel på e-kurs" />
+    <img src="lmsecourse.png" alt="exempel på e-kurs" />
     <figcaption>Kurs i LMS (itslearning)</figcaption>
   </figure>
 </div>
 
-<div
-  style="display: flex; margin-top: 2rem;
-  margin-bottom: 5rem;">
+<div class="e-course">
   <figure>
-    <img width="319px" src="tekniskdok.png" alt="exempel på e-kurs" />
+    <img src="tekniskdok.png" alt="exempel på e-kurs" />
     <figcaption>Teknisk dokumentation</figcaption>
   </figure>
 </div>
 
-<a href="contact"><button id="send">Kontakta oss</button></a>
-
+<div class="contact-button">
+<a href="contact">
+  <button id="send">Kontakta oss</button>
+</a>
+</div>
