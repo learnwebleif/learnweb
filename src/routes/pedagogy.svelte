@@ -1,8 +1,27 @@
+<style>
+  img {
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    max-width: 100%;
+  }
+  .contact-button {
+    margin-top: 2rem;
+  }
+
+  @media (min-width: 40rem) {
+    img {
+      display: block;
+      margin-top: 4rem;
+      margin-bottom: 5rem;
+      max-width: 270px;
+    }
+  }
+</style>
+
 <svelte:head>
-	<title>Pedagogik</title>
+  <title>Pedagogik</title>
 </svelte:head>
-
-
 <h1>Pedagogik</h1>
 
 <h2>Learning Management Systems</h2>
@@ -18,10 +37,8 @@
 </p>
 
 <!-- <img width="100%" src="lms.png" alt="LMS" /> -->
-<div
-  style="display: flex; justify-content: center; margin-top: 3rem;
-  margin-bottom: 5rem;">
-  <img width="80%" src="lms.png" alt="LMS" />
+<div>
+  <img src="lms.png" alt="LMS" />
 </div>
 
 <h1>Manus</h1>
@@ -54,27 +71,28 @@
 </p>
 
 <p>
-  <a href="https://learnweb.se/webdesign">Läs mer</a>
+  <a href="webdesign">Läs mer</a>
   om Vuepress och teknisk dokumentation.
 </p>
 
-<div
-  style="display: flex; justify-content: center; margin-top: 3rem;
-  margin-bottom: 4rem;">
-  <img width="255px" src="vuepress.png" alt="Vuepress" />
+<div>
+  <img src="vuepress.png" alt="Vuepress" />
 </div>
 
 <h1>Kurs i webbpedagogik</h1>
 
 <p>
   Vi vill gärna erbjuda pedagoger och ämnesexperter utbildning i webbutveckling
-  och mediaproduktion för webben. Vi har ett färdigt upplägg som kan anpassas efter
-  individuella önskemål.
+  och mediaproduktion för webben. Vi har ett färdigt upplägg som kan anpassas
+  efter individuella önskemål.
 </p>
 
 <div
   style="display: flex; justify-content: center; margin-top: 3rem;
-  margin-bottom: 4rem;">
-</div>
+  margin-bottom: 4rem;" />
 
-<a href="contact"><button id="send">Kontakta oss</button></a>
+<div class="contact-button">
+  <a href="contact">
+    <button id="send">Kontakta oss</button>
+  </a>
+</div>
