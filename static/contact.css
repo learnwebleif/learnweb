@@ -2,7 +2,7 @@ input, select, textarea {
     display: block;
     margin-top: 0.8rem;
     margin-bottom: 1rem;
-    width: 100%;
+    width: 95%;
 }
 
 textarea {
