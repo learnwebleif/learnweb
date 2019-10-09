@@ -1,14 +1,14 @@
 <style>
-
+  @import url("https://fonts.googleapis.com/css?family=Quicksand|Ubuntu&display=swap");
   img {
     display: flex;
     margin-top: 4rem;
     margin-bottom: 5rem;
     max-width: 100%;
   }
-.contact-button{
-  margin-top: 2rem;
-}
+  .contact-button {
+    margin-top: 2rem;
+  }
 
   @media (min-width: 40rem) {
     img {
@@ -17,6 +17,20 @@
       margin-bottom: 5rem;
       max-width: 370px;
     }
+    h1,
+    h2 {
+      font-family: "Quicksand", sans-serif;
+    }
+    p {
+      font-family: "Quicksand", sans-serif;
+    }
+  }
+
+  .framework {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
 </style>
 
@@ -43,9 +57,7 @@
   <a href="https://tailwindcss.com/">tailwindcss.</a>
 </p>
 
-<div
-  style="display: flex; justify-content: space-between; margin-top: 4rem;
-  margin-bottom: 5rem">
+<div class="framework">
   <img width="75" height="23" src="svelte.png" alt="Svelte" />
   <img width="60" height="23" src="vue.png" alt="Vue" />
   <img width="65" height="23" src="bulma.png" alt="Bulma" />
@@ -166,7 +178,7 @@
 </div>
 
 <div class="contact-button">
-<a href="contact">
-  <button id="send">Kontakta oss</button>
-</a>
+  <a href="contact">
+    <button id="send">Kontakta oss</button>
+  </a>
 </div>

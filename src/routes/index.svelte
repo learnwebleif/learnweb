@@ -1,5 +1,5 @@
 <style>
-  @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Quicksand|Ubuntu&display=swap");
 
   #logo {
     margin-left: 0;
@@ -7,10 +7,27 @@
   }
 
   h2 {
-    font-family: "Overpass", sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
     color: #4f4f4f;
+  }
+
+  #logo-text {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #4f4f4f;
+  }
+
+  #start-text {
+    font-family: "Quicksand", sans-serif;
+    padding: 2rem 1rem;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #525f7f;
   }
 
   #small {
@@ -29,7 +46,7 @@
 
   .service {
     background: white;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .service h2 {
@@ -127,7 +144,6 @@
     }
     img {
       width: 100%;
-      /* max-width: 400px; */
       margin: 0 0 1em 0;
     }
   }
@@ -139,20 +155,15 @@
 
   .learn-more {
     -webkit-box-direction: normal;
-font-family: Camphor,Open Sans,Segoe UI,sans-serif;
-font-style: normal;
--webkit-font-smoothing: antialiased;
-text-rendering: optimizeLegibility;
-font-feature-settings: "pnum";
-font-variant-numeric: proportional-nums;
-box-sizing: border-box;
-text-decoration: none;
--webkit-tap-highlight-color: transparent;
-outline: none;
-font-size: 17px;
-font-weight: 500;
-transition: color .1s ease;
-cursor: pointer;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
   }
 </style>
 
@@ -187,7 +198,7 @@ cursor: pointer;
       </text>
     </g>
   </svg>
-  <h2 class="color: #4f4f4f">Utveckling av digitala lärresurser</h2>
+  <h2 id="logo-text">Utveckling av digitala lärresurser</h2>
   <div class="startImage-small">
     <img
       id="small"
@@ -199,7 +210,7 @@ cursor: pointer;
     <img width="800px" src="larresurs_big.png" alt="Lärresurs" />
   </div>
 </div>
-<div>
+<div id="start-text">
   <p>
     Genom att använda moderna ramverk för webbutveckling skapar learnweb
     tillsammans med pedagoger framtidens digitala resurser.
@@ -209,10 +220,10 @@ cursor: pointer;
   <div class="frameworks">
     <h2>Webbutveckling</h2>
     <p>
-      Vi det möjligt för
-      företag och utbildningsorganisationer att arbeta effektivt med
-      kunskapshantering.
+      Vi det möjligt för företag och utbildningsorganisationer att arbeta
+      effektivt med kunskapshantering.
     </p>
+    <br />
     <a class="learn-more" style="float: right;" href="webdesign">Läs mer</a>
   </div>
   <div class="lms">
@@ -221,6 +232,7 @@ cursor: pointer;
       Vi är experter på lärsystem och hur digital pedagogisk utveckling kan
       skapa mervärde för utbildare och studenter.
     </p>
+    <br />
     <a class="learn-more" style="float: right;" href="pedagogy">Läs mer</a>
   </div>
 </div>

@@ -1,4 +1,5 @@
 <style>
+ @import url("https://fonts.googleapis.com/css?family=Quicksand|Ubuntu&display=swap");
   img {
     display: flex;
     margin-top: 4rem;
@@ -15,6 +16,13 @@
       margin-top: 4rem;
       margin-bottom: 5rem;
       max-width: 270px;
+    }
+    h1,
+    h2 {
+      font-family: "Quicksand", sans-serif;
+    }
+    p {
+      font-family: "Quicksand", sans-serif;
     }
   }
 </style>
