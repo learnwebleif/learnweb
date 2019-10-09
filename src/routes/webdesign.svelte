@@ -2,12 +2,25 @@
   @import url("https://fonts.googleapis.com/css?family=Quicksand|Ubuntu&display=swap");
   img {
     display: flex;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-bottom: 5rem;
-    max-width: 100%;
+    width: 50%;
   }
   .contact-button {
     margin-top: 2rem;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  figure > img {
+    margin: 0;
+    width: 100%;
+  }
+
+  .e-course {
+    margin: 4rem 0;
   }
 
   @media (min-width: 40rem) {
@@ -15,7 +28,6 @@
       display: block;
       margin-top: 4rem;
       margin-bottom: 5rem;
-      max-width: 370px;
     }
     h1,
     h2 {
@@ -24,13 +36,37 @@
     p {
       font-family: "Quicksand", sans-serif;
     }
-  }
-
-  .framework {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    .framework {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+    #svelte-img {
+      width: 18%;
+      height: 50px;
+    }
+    #vue-img {
+      width: 18%;
+      height: 60px;
+    }
+    #bulma-img {
+      width: 18%;
+      height: 50px;
+    }
+    #tailwind-img {
+      width: 25%;
+      height: 50px;
+    }
+    .adapt, .vuepress, .accesibility-1 {
+      width: 30%;
+    }
+    .multiple-choice {
+      width: 80%;
+    }
+    .e-course {
+      width: 60%;
+    }
   }
 </style>
 
@@ -40,14 +76,11 @@
 <h1>Webbutveckling</h1>
 
 <p>
-  Det tog över 20 år innan det tekniken blev tillräckligt mogen för att skapa
-  webbapplikationer (multimedia) om man räknar bort Adobe Flash. När Facebook
-  för 6 år sedan lanserade React var det början på en utveckling som idag lett
-  fram till flera fantastiska ramverk för att skapa webbapplikationer.
-</p>
-
-<p>
-  Vi använder idag främst
+  Vi har arbetat med webbutveckling i över 20 år och med t.ex. java-applets,
+  flash och silverlight plus otaliga författarverktyg försökt skapa multimedia på webben som kan användas som
+  lärresurser i e-kurser. När Facebook för 6 år sedan lanserade React var det början på en
+  utveckling som idag lett fram till flera fantastiska ramverk för att skapa
+  webbapplikationer. En arkitektur som vi har anammat är <a href="https://jamstack.org/">JAMstack</a> och vi använder idag främst
   <a href="https://svelte.dev">Svelte</a>
   och
   <a href="https://vuejs.org/">Vue</a>
@@ -58,10 +91,14 @@
 </p>
 
 <div class="framework">
-  <img width="75" height="23" src="svelte.png" alt="Svelte" />
-  <img width="60" height="23" src="vue.png" alt="Vue" />
-  <img width="65" height="23" src="bulma.png" alt="Bulma" />
-  <img width="100" height="22" src="tailwind.png" alt="Tailwind" />
+  <!-- <img width="75" height="23" src="svelte.png" alt="Svelte" /> -->
+  <img id="svelte-img" src="svelte.png" alt="Svelte" />
+  <!-- <img width="60" height="23" src="vue.png" alt="Vue" /> -->
+  <img id="vue-img" src="vue.png" alt="Vue" />
+  <!-- <img width="65" height="23" src="bulma.png" alt="Bulma" /> -->
+  <img id="bulma-img" src="bulma.png" alt="Bulma" />
+  <!-- <img width="100" height="22" src="tailwind.png" alt="Tailwind" /> -->
+  <img id="tailwind-img" src="tailwind.png" alt="Tailwind" />
 </div>
 
 <h1>E-learning authoring tool</h1>
@@ -127,23 +164,16 @@
 
 <h1>Exempelprojekt</h1>
 
-<!-- <p>
-  Vi provar ständigt nya ramverk för att hitta de som fungerar bäst för våra
-  projekt.
-</p>
-
-<p>
-  Svelte är för tydlighetens skull inte ett ramverk utan en kompilator. Detta
-  gör att prestandan blir oerhört bra men för vår del är kreativiteten och
-  effektiviten avgörande i val av ramverk och verktyg.
-</p> -->
-
 <div style="margin-bottom: 3rem;">
   <p>
-    <a href="https://multiple-choice.learnwebleif.now.sh/">Multiple choice</a>
-    utvecklad i Svelte.
+    Multiple choice utvecklad i Svelte.
   </p>
-  <div>
+  <div class="contact-button">
+  <a href="https://multiple-choice.learnwebleif.now.sh/">
+    <button id="send">Demo</button>
+  </a>
+</div>
+  <div class="multiple-choice">
     <img src="mc.png" alt="Multiple choice" />
   </div>
 </div>
