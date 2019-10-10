@@ -94,8 +94,8 @@
 </svelte:head>
 
 <div id="form-header">
-  <h1>Kontakta oss</h1>
-  <p>Skriv till oss så hör vi av oss så fort vi kan.</p>
+  <h1>Skriv till oss</h1>
+  <p>Vi återkopplar till dig så snart som möjligt.</p>
 </div>
 <div class="contact-form">
   <form
