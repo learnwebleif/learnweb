@@ -1,5 +1,5 @@
 <style>
- @import url("https://fonts.googleapis.com/css?family=Quicksand|Ubuntu&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Quicksand|Ubuntu&display=swap");
   img {
     display: flex;
     margin-top: 4rem;
@@ -42,6 +42,16 @@
   kan garantera att er organisation kan få ut maximalt av en digital satsning
   oavsett om det handlar om utveckling av digitalt innehåll, utbildning eller
   support.
+</p>
+
+<h3 style="margin-top: 3rem;">“Content is King” Bill Gates 1996</h3>
+
+<p>
+  Alla LMS har begränsade möjligheter att skapa ett interaktivt innehåll som
+  stimulerar till lärande men de flesta LMS har möjligheten att använda LTI
+  eller SCORM. LTI och SCORM gör det möjligt att utveckla lärresurser som kan
+  kommunicera med ett LMS. Detta möjliggör att peadagoger och ämnesexperter kan
+  skapa rikt interaktivt innehåll som engagerar eleverna.
 </p>
 
 <!-- <img width="100%" src="lms.png" alt="LMS" /> -->
