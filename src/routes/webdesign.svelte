@@ -58,7 +58,9 @@
       width: 25%;
       height: 50px;
     }
-    .adapt, .vuepress, .accesibility-1 {
+    .adapt,
+    .vuepress,
+    .accesibility-1 {
       width: 30%;
     }
     .multiple-choice {
@@ -73,14 +75,16 @@
 <svelte:head>
   <title>Webbutveckling</title>
 </svelte:head>
-<h1>Webbutveckling</h1>
 
 <p>
   Vi har arbetat med webbutveckling i över 20 år och med t.ex. java-applets,
-  flash och silverlight plus otaliga författarverktyg försökt skapa multimedia på webben som kan användas som
-  lärresurser i e-kurser. När Facebook för 6 år sedan lanserade React var det början på en
-  utveckling som idag lett fram till flera fantastiska ramverk för att skapa
-  webbapplikationer. En arkitektur som vi har anammat är <a href="https://jamstack.org/">JAMstack</a> och vi använder idag främst
+  flash och silverlight plus otaliga författarverktyg försökt skapa multimedia
+  på webben som kan användas som lärresurser i e-kurser. När Facebook för 6 år
+  sedan lanserade React var det början på en utveckling som idag lett fram till
+  flera fantastiska ramverk för att skapa webbapplikationer. En arkitektur som
+  vi har anammat är
+  <a href="https://jamstack.org/">JAMstack</a>
+  och vi använder idag främst
   <a href="https://svelte.dev">Svelte</a>
   och
   <a href="https://vuejs.org/">Vue</a>
@@ -101,7 +105,7 @@
   <img id="tailwind-img" src="tailwind.png" alt="Tailwind" />
 </div>
 
-<h1>E-learning authoring tool</h1>
+<h1>E-learning</h1>
 
 <p>
   För traditionell e-learning använder vi
@@ -118,12 +122,13 @@
   <img src="adapt.png" alt="adapt" />
 </div>
 
-<h1>Vuepress</h1>
+<h1>Teknisk dokumentation</h1>
 
 <p>
   För teknisk dokumentation använder vi Vuepress som är en "Vue-powered Static
-  Site Generator". Vuepress använder Markdown och det går otroligt snabbt att
-  utveckla innehåll utan att det innebär några begränsningar.
+  Site Generator". Vuepress använder Markdown för att skapa huvuddelen av
+  innehållet vilket gör det oerhört enkelt och kostnadseffektivt producera
+  innehåll men det finns även en möjlighet att använda Vue för mer avancerade funktioner.
 </p>
 
 <div class="vuepress">
@@ -165,14 +170,12 @@
 <h1>Exempelprojekt</h1>
 
 <div style="margin-bottom: 3rem;">
-  <p>
-    Multiple choice utvecklad i Svelte.
-  </p>
+  <p>Multiple choice utvecklad i Svelte.</p>
   <div class="contact-button">
-  <a href="https://multiple-choice.learnwebleif.now.sh/">
-    <button id="send">Demo</button>
-  </a>
-</div>
+    <a href="https://multiple-choice.learnwebleif.now.sh/">
+      <button id="send">Demo</button>
+    </a>
+  </div>
   <div class="multiple-choice">
     <img src="mc.png" alt="Multiple choice" />
   </div>

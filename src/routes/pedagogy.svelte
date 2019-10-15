@@ -15,14 +15,17 @@
       display: block;
       margin-top: 4rem;
       margin-bottom: 5rem;
-      max-width: 270px;
     }
     h1,
     h2 {
       font-family: "Quicksand", sans-serif;
+      margin-top: 4rem;
     }
     p {
       font-family: "Quicksand", sans-serif;
+    }
+    .vuepress, .lms {
+      width: 30%;
     }
   }
 </style>
@@ -30,9 +33,6 @@
 <svelte:head>
   <title>Pedagogik</title>
 </svelte:head>
-<h1>Pedagogik</h1>
-
-<h2>Learning Management Systems</h2>
 
 <p>
   Ett bra innehåll och en tydlig struktur är alltid grunden för ett lyckat
@@ -40,22 +40,29 @@
   pedagoger och ämnesexperter. Alla LMS, LSX och andra lärsystem är
   webbapplikationer och eftersom vi är webbutvecklare är det vår hemmaplan. Vi
   kan garantera att er organisation kan få ut maximalt av en digital satsning
-  oavsett om det handlar om utveckling av digitalt innehåll, utbildning eller
+  oavsett om det handlar om att utveckla digitalt innehåll, utbildning eller
   support.
 </p>
 
-<h3 style="margin-top: 3rem;">“Content is King” Bill Gates 1996</h3>
+<h2>Learning Management systems</h2>
 
 <p>
   Alla LMS har begränsade möjligheter att skapa ett interaktivt innehåll som
-  stimulerar till lärande men de flesta LMS har möjligheten att använda LTI
-  eller SCORM. LTI och SCORM gör det möjligt att utveckla lärresurser som kan
-  kommunicera med ett LMS. Detta möjliggör att peadagoger och ämnesexperter kan
-  skapa rikt interaktivt innehåll som engagerar eleverna.
+  stimulerar till lärande. Läromedelsproducenter kan använda standarder som
+  t.ex. LTI för att koppla lärreseurser till kurser i ett LMS men de flesta har
+  valt att skapa egna system vilket försvårar tillgängligheten och skapar en
+  negativ användarupplevelse.
+</p>
+
+<p>
+  Med hjälp av standarder som LTI och SCORM kan även pedagoger och ämnesexperter
+  skapa innehåll. Vi har effektiva verktyg och metoder som gör det möjligt att
+  skapa interaktivt innehåll oavsett vilket LMS som används. Vissa LMS kan
+  importera SCORM-objekt direkt annars kan lösningen vara att använda LTI.
 </p>
 
 <!-- <img width="100%" src="lms.png" alt="LMS" /> -->
-<div>
+<div class="lms">
   <img src="lms.png" alt="LMS" />
 </div>
 
@@ -93,7 +100,7 @@
   om Vuepress och teknisk dokumentation.
 </p>
 
-<div>
+<div class="vuepress">
   <img src="vuepress.png" alt="Vuepress" />
 </div>
 
