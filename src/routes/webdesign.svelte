@@ -6,6 +6,9 @@
     margin-bottom: 5rem;
     width: 50%;
   }
+  .accesibility-2 {
+    width: 100% !important;
+  }
   .contact-button {
     margin-top: 2rem;
   }
@@ -63,6 +66,9 @@
     .accesibility-1 {
       width: 30%;
     }
+    .accesibility-2 {
+      width: 50%;
+    }
     .multiple-choice {
       width: 80%;
     }
@@ -77,12 +83,9 @@
 </svelte:head>
 
 <p>
-  Vi har arbetat med webbutveckling i över 20 år och med t.ex. java-applets,
-  flash och silverlight plus otaliga författarverktyg försökt skapa multimedia
-  på webben som kan användas som lärresurser i e-kurser. När Facebook för 6 år
-  sedan lanserade React var det början på en utveckling som idag lett fram till
-  flera fantastiska ramverk för att skapa webbapplikationer. En arkitektur som
-  vi har anammat är
+  När Facebook för 6 år sedan lanserade React var det början på en utveckling
+  som idag lett fram till flera fantastiska ramverk för att skapa
+  webbapplikationer. En arkitektur som vi har anammat är
   <a href="https://jamstack.org/">JAMstack</a>
   och vi använder idag främst
   <a href="https://svelte.dev">Svelte</a>
@@ -128,7 +131,8 @@
   För teknisk dokumentation använder vi Vuepress som är en "Vue-powered Static
   Site Generator". Vuepress använder Markdown för att skapa huvuddelen av
   innehållet vilket gör det oerhört enkelt och kostnadseffektivt producera
-  innehåll men det finns även en möjlighet att använda Vue för mer avancerade funktioner.
+  innehåll men det finns även en möjlighet att använda Vue för mer avancerade
+  funktioner.
 </p>
 
 <div class="vuepress">
