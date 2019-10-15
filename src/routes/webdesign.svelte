@@ -27,6 +27,9 @@
   }
 
   @media (min-width: 40rem) {
+    figcaption {
+      margin-top: 1rem;
+    }
     img {
       display: block;
       margin-top: 4rem;
@@ -73,7 +76,7 @@
       width: 80%;
     }
     .e-course {
-      width: 60%;
+      width: 80%;
     }
   }
 </style>
@@ -195,21 +198,21 @@
 
 <div class="e-course">
   <figure>
-    <img src="stom.png" alt="exempel på e-kurs" />
+    <img src="stom-ex.png" alt="exempel på e-kurs" />
     <figcaption>Stöd- och matchningstjänst</figcaption>
   </figure>
 </div>
 
 <div class="e-course">
   <figure>
-    <img src="lmsecourse.png" alt="exempel på e-kurs" />
+    <img src="lms-ex.png" alt="exempel på e-kurs" />
     <figcaption>Kurs i LMS (itslearning)</figcaption>
   </figure>
 </div>
 
 <div class="e-course">
   <figure>
-    <img src="tekniskdok.png" alt="exempel på e-kurs" />
+    <img src="teknisk.png" alt="exempel på e-kurs" />
     <figcaption>Teknisk dokumentation</figcaption>
   </figure>
 </div>
