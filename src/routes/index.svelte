@@ -220,7 +220,7 @@
   <div class="frameworks">
     <h2>Webbutveckling</h2>
     <p>
-      Vi det möjligt för företag och utbildningsorganisationer att arbeta
+      Vi gör det möjligt för företag och utbildningsorganisationer att arbeta
       effektivt med kunskapshantering.
     </p>
     <br />
