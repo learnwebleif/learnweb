@@ -79,13 +79,19 @@
       width: 80%;
     }
   }
+  .ingress {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #606f94;
+  }
 </style>
 
 <svelte:head>
   <title>Webbutveckling</title>
 </svelte:head>
 
-<p>
+<p class="ingress">
   När Facebook för 6 år sedan lanserade React var det början på en utveckling
   som idag lett fram till flera fantastiska ramverk för att skapa
   webbapplikationer. En arkitektur som vi har anammat är

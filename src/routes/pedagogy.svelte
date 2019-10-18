@@ -1,35 +1,61 @@
 <style>
   @import url("https://fonts.googleapis.com/css?family=Quicksand|Ubuntu&display=swap");
 
-  h2 {
-      font-family: "Quicksand", sans-serif;
-      margin-top: 2rem;
-    }
   img {
     display: flex;
-    margin-top: 4rem;
     margin-bottom: 5rem;
-    max-width: 100%;
+    max-width: 60%;
+    margin: auto;
+    padding: 2rem;
   }
   .contact-button {
     margin-top: 2rem;
   }
 
+  .ingress {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #606f94;
+    margin-bottom: 5rem;
+  }
+
   @media (min-width: 40rem) {
-    img {
-      display: block;
-      margin-top: 4rem;
-      margin-bottom: 5rem;
-    }
-    h1,
-    h2 {
+     img {
+    display: flex;
+    margin-bottom: 5rem;
+    max-width: 100%;
+  }
+    h1 {
       margin-top: 4rem;
     }
     p {
       font-family: "Quicksand", sans-serif;
     }
-    .vuepress, .lms {
-      width: 30%;
+    .lms {
+      display: flex;
+      align-content: center;
+      margin: auto;
+      justify-content: space-evenly;
+      margin-top: 4rem;
+    }
+    .scormcloud {
+      width: 200px;
+      padding-left: 5rem;
+      margin: 0;
+    }
+    .itslearning {
+      width: 130px;
+    }
+    .canvas {
+      width: 130px;
+    }
+    .moodle {
+      width: 130px;
+    }
+
+    .vuepress {
+      width: 200px;
     }
   }
 </style>
@@ -38,25 +64,19 @@
   <title>Pedagogik</title>
 </svelte:head>
 
-<p>
-  Ett bra innehåll och en tydlig struktur är alltid grunden för ett lyckat
-  genomförande av en utbildning. Vi har lång erfarenhet av samarbeten med
-  pedagoger och ämnesexperter. Alla LMS, LSX och andra lärsystem är
-  webbapplikationer och eftersom vi är webbutvecklare är det vår hemmaplan. Vi
-  kan garantera att er organisation kan få ut maximalt av en digital satsning
-  oavsett om det handlar om att utveckla digitalt innehåll, utbildning eller
-  support.
-</p>
-
-<h2>Learning Management systems</h2>
-
-<p>
+<p class="ingress">
   Alla LMS har begränsade möjligheter att skapa ett interaktivt innehåll som
   stimulerar till lärande. Läromedelsproducenter kan använda standarder som
   t.ex. LTI för att koppla lärreseurser till kurser i ett LMS men de flesta har
   valt att skapa egna system vilket försvårar tillgängligheten och skapar en
   negativ användarupplevelse.
 </p>
+
+<div class="scormcloud">
+  <a href="https://rusticisoftware.com/products/scorm-cloud/">
+    <img src="scormcloud.png" alt="Scorm-cloud" />
+  </a>
+</div>
 
 <p>
   Med hjälp av standarder som LTI och SCORM kan även pedagoger och ämnesexperter
@@ -65,12 +85,19 @@
   importera SCORM-objekt direkt annars kan lösningen vara att använda LTI.
 </p>
 
-<!-- <img width="100%" src="lms.png" alt="LMS" /> -->
 <div class="lms">
-  <img src="lms.png" alt="LMS" />
+  <div class="itslearning">
+    <img src="itslearning.png" alt="itslearning" />
+  </div>
+  <div class="canvas">
+    <img src="canvas.png" alt="Canvas" />
+  </div>
+  <div class="moodle">
+    <img src="moodle.jpg" alt="Moodle" />
+  </div>
 </div>
 
-<h1>Manus</h1>
+<h1 style="margin-top: 3rem;">Manus</h1>
 
 <p>
   Webbutveckling är en sak, mediaproduktion, film, bilder etc. är en annan, sen
