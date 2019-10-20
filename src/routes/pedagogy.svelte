@@ -21,11 +21,11 @@
   }
 
   @media (min-width: 40rem) {
-     img {
-    display: flex;
-    margin-bottom: 5rem;
-    max-width: 100%;
-  }
+    img {
+      display: flex;
+      margin-bottom: 5rem;
+      max-width: 100%;
+    }
     h1 {
       margin-top: 4rem;
     }
@@ -65,11 +65,10 @@
 </svelte:head>
 
 <p class="ingress">
-  Alla LMS har begränsade möjligheter att skapa ett interaktivt innehåll som
-  stimulerar till lärande. Läromedelsproducenter kan använda standarder som
-  t.ex. LTI för att koppla lärreseurser till kurser i ett LMS men de flesta har
-  valt att skapa egna system vilket försvårar tillgängligheten och skapar en
-  negativ användarupplevelse.
+  Med hjälp av standarder som LTI och SCORM kan även pedagoger och ämnesexperter
+  skapa innehåll. Vi har effektiva verktyg och metoder som gör det möjligt att
+  skapa interaktivt innehåll oavsett vilket LMS som används. Vissa LMS kan
+  importera SCORM-objekt direkt annars kan lösningen vara att använda LTI.
 </p>
 
 <div class="scormcloud">
@@ -79,10 +78,13 @@
 </div>
 
 <p>
-  Med hjälp av standarder som LTI och SCORM kan även pedagoger och ämnesexperter
-  skapa innehåll. Vi har effektiva verktyg och metoder som gör det möjligt att
-  skapa interaktivt innehåll oavsett vilket LMS som används. Vissa LMS kan
-  importera SCORM-objekt direkt annars kan lösningen vara att använda LTI.
+  Alla LMS har begränsade möjligheter att skapa ett interaktivt innehåll som
+  stimulerar till lärande. Läromedelsproducenter kan använda standarder som
+  t.ex. LTI för att koppla lärreseurser till kurser i ett LMS men de flesta har
+  valt att skapa egna system vilket försvårar tillgängligheten och skapar en
+  negativ användarupplevelse. Genom ett samarbete mellan pedagoger och
+  webbutvecklare finns nu fantastiska möjligheter att skapa framtidens digitala
+  resurser.
 </p>
 
 <div class="lms">

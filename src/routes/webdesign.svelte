@@ -160,7 +160,7 @@
   <img src="talsyntes.png" alt="Tillgänglighet" />
 </div>
 <div class="accesibility-2">
-  <img src="responsiv.png" alt="Tillgänglighet" />
+  <img style="width: 300px;" src="responsiv.png" alt="Tillgänglighet" />
 </div>
 
 <div style="margin-bottom: 7rem;">
