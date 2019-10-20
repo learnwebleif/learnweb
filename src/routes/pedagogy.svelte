@@ -85,7 +85,7 @@
   användarupplevelse. Genom ett samarbete mellan pedagoger och webbutvecklare
   finns nu fantastiska möjligheter att skapa framtidens digitala resurser. Vissa
   LMS kan importera SCORM-objekt direkt annars kan lösningen vara att använda
-  LTI.
+  LTI. Vi har erfarenhet att arbeta med t.ex. itslearning, Canvas och Moodle.
 </p>
 
 <div class="lms">
