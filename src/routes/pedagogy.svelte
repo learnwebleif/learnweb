@@ -66,8 +66,8 @@
 
 <p class="ingress">
   Med hjälp av standarder som LTI och SCORM kan även pedagoger och ämnesexperter
-  skapa innehåll. Vi har effektiva verktyg och metoder som gör det möjligt att
-  skapa interaktivt innehåll oavsett vilket LMS som används. Vissa LMS kan
+  skapa rikt interaktivt innehåll. Vi har effektiva verktyg och metoder som gör det möjligt att
+  skapa innehåll oavsett vilket LMS som används. Vissa LMS kan
   importera SCORM-objekt direkt annars kan lösningen vara att använda LTI.
 </p>
 
