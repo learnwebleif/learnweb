@@ -14,6 +14,12 @@
         body: data
       });
       showModal = true;
+      let name = document.getElementById("name")
+      name.value = ""
+      let email = document.getElementById("email")
+      email.value = ""
+      let message = document.getElementById("message")
+      message.value = ""
     });
   });
 </script>
@@ -105,17 +111,17 @@
 
     <div class="form-row">
       <label class="first-name">Namn</label>
-      <input type="text" name="name" />
+      <input id="name" type="text" name="name" />
     </div>
     <div class="form-row">
       <label class="email">E-post</label>
-      <input type="email" name="email" placeholder="@" />
+      <input id="email" type="email" name="email" placeholder="@" />
     </div>
     <div class="form-row">
       <label style="align-self: flex-start; padding-top: 12px;">
         Meddelande
       </label>
-      <textarea
+      <textarea id="message"
         name="comment"
         maxlength="500"
         form="contact-form" />
@@ -128,8 +134,8 @@
 </div>
 {#if showModal}
   <Modal on:close={() => (showModal = false)}>
-    <h2 slot="header">Skickat!</h2>
+    <h3 slot="header">Meddelande skickat!</h3>
 
-    <p>Tack för att du kontaktar oss. Vi kontaktar dig så snart vi kan.</p>
+    <p style="margin-bottom:2rem">Tack för att du kontaktar oss. Vi återkopplar snarast möjligt.</p>
   </Modal>
 {/if}
