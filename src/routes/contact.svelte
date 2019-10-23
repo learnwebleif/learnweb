@@ -95,7 +95,7 @@
 
 <div id="form-header">
   <h1>Skriv till oss</h1>
-  <p>Vi återkopplar till dig så snart som möjligt.</p>
+  <p>Vi återkopplar snarast möjligt.</p>
 </div>
 <div class="contact-form">
   <form
