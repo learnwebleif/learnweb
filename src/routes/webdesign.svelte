@@ -79,12 +79,6 @@
       width: 80%;
     }
   }
-  .ingress {
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 32px;
-    color: #606f94;
-  }
 </style>
 
 <svelte:head>
@@ -198,7 +192,7 @@
 
 <p>
   Vi har utvecklat hundratals e-kurser och digitala resureser genom åren med
-  olika butgetar vilket gör att vi kan få ut det mesta av både stora och små
+  olika budgetar vilket gör att vi kan få ut det mesta av både stora och små
   projekt. Här är några exempel.
 </p>
 

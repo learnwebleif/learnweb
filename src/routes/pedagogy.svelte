@@ -6,32 +6,97 @@
     margin-bottom: 5rem;
     max-width: 60%;
     margin: auto;
-    padding: 2rem;
+    padding: 2rem 0;
   }
   .contact-button {
     margin-top: 2rem;
   }
 
+  a:after {
+    padding-left: 0.5rem;
+    content: url("arrow-2.svg");
+  }
+
+  .card-footer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
   .ingress {
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 32px;
-    color: #606f94;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   @media (min-width: 40rem) {
+    .contact-button {
+      text-align: right;
+    }
+
+    .card {
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+      margin-left: 3rem;
+      -webkit-box-direction: normal;
+      font-size: 62.5%;
+      font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      font-feature-settings: "pnum";
+      font-variant-numeric: proportional-nums;
+      box-sizing: border-box;
+      background: #fff;
+      will-change: transform;
+      border-radius: 6px;
+      position: relative;
+      width: 55%;
+      transform-origin: 50% 100%;
+      transform: scale(1);
+      opacity: 1;
+      transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in,
+        opacity 0.2s;
+      box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3),
+        0 -6px 16px -6px rgba(0, 0, 0, 0.025), 0 0 20px rgba(0, 0, 0, 0.04);
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      background: #f6f9fc;
+      margin-bottom: 5rem;
+    }
+
+    .card-link {
+      color: #6772e5;
+      font-weight: 500;
+      transition: color 0.1s ease;
+      cursor: pointer;
+      padding: 16px 34px 22px;
+      width: 100%;
+      text-align: center;
+      font-size: 15px;
+      line-height: 28px;
+    }
+
     img {
       display: flex;
-      margin-bottom: 5rem;
       max-width: 100%;
     }
+
     h1 {
       margin-top: 4rem;
     }
+
     p {
       font-family: "Quicksand", sans-serif;
     }
+
     .lms {
       display: flex;
       align-content: center;
@@ -39,10 +104,10 @@
       justify-content: space-evenly;
       margin-top: 4rem;
     }
+
     .scormcloud {
       width: 200px;
-      padding-left: 5rem;
-      margin: 0;
+      margin: auto;
     }
     .itslearning {
       width: 130px;
@@ -55,7 +120,7 @@
     }
 
     .vuepress {
-      width: 200px;
+      width: 150px;
     }
   }
 </style>
@@ -67,25 +132,35 @@
 <p class="ingress">
   Alla LMS har begränsade möjligheter att skapa ett interaktivt innehåll som
   stimulerar till lärande. Med hjälp av standarder som LTI och SCORM kan även
-  pedagoger och ämnesexperter skapa rikt interaktivt innehåll. Vi har effektiva
-  verktyg och metoder som gör det möjligt att skapa innehåll oavsett vilket LMS
-  som används.
+  pedagoger och ämnesexperter skapa rikt interaktivt innehåll.
 </p>
 
-<div class="scormcloud">
-  <a href="https://rusticisoftware.com/products/scorm-cloud/">
+<div class="card">
+  <div class="scormcloud">
     <img src="scormcloud.png" alt="Scorm-cloud" />
-  </a>
+  </div>
+  <div class="card-footer">
+    <a
+      class="card-link"
+      href="https://rusticisoftware.com/products/scorm-cloud/">
+      SCORM Cloud
+    </a>
+  </div>
 </div>
 
 <p>
   Vissa läromedelsproducenter använder standarder som t.ex. LTI för att koppla
   lärreseurser till kurser i ett LMS men de flesta har valt att skapa egna
   system vilket försvårar tillgängligheten och skapar en negativ
-  användarupplevelse. Genom ett samarbete mellan pedagoger och webbutvecklare
-  finns nu fantastiska möjligheter att skapa framtidens digitala resurser. Vissa
-  LMS kan importera SCORM-objekt direkt annars kan lösningen vara att använda
-  LTI. Vi har erfarenhet att arbeta med t.ex. itslearning, Canvas och Moodle.
+  användarupplevelse.
+</p>
+<p>
+  Genom ett samarbete mellan pedagoger och webbutvecklare finns nu fantastiska
+  möjligheter att skapa framtidens digitala resurser.Vi har effektiva verktyg
+  och metoder som gör det möjligt att skapa innehåll oavsett vilket LMS som
+  används. Vissa LMS kan importera SCORM-objekt direkt annars kan lösningen vara
+  att använda LTI. Vi har erfarenhet att arbeta med t.ex. itslearning, Canvas
+  och Moodle.
 </p>
 
 <div class="lms">
@@ -129,13 +204,13 @@
   eller ett LMS.
 </p>
 
-<p>
-  <a href="webdesign">Läs mer</a>
-  om Vuepress och teknisk dokumentation.
-</p>
-
-<div class="vuepress">
-  <img src="vuepress.png" alt="Vuepress" />
+<div class="card">
+  <div class="scormcloud">
+    <img class="vuepress" src="vuepress.png" alt="Vuepress" />
+  </div>
+  <div class="card-footer">
+    <a class="card-link" href="webdesign">Läs mer</a>
+  </div>
 </div>
 
 <h1>Kurs i webbpedagogik</h1>

@@ -16,6 +16,14 @@ h1 {
 	font-size: 2em;
 }
 
+.ingress {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #5f667a;
+    margin-bottom: 5rem;
+  }
+
 a {
 	color: inherit;
 }
