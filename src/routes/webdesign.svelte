@@ -205,14 +205,14 @@
 
 <div class="e-course">
   <figure>
-    <img src="lms-ex.png" alt="exempel på e-kurs" />
+    <img src="kurs-its.jpg" alt="exempel på e-kurs" />
     <figcaption>Kurs i LMS (itslearning)</figcaption>
   </figure>
 </div>
 
 <div class="e-course">
   <figure>
-    <img src="teknisk.png" alt="exempel på e-kurs" />
+    <img src="teknisk-dok.jpg" alt="exempel på e-kurs" />
     <figcaption>Teknisk dokumentation</figcaption>
   </figure>
 </div>
