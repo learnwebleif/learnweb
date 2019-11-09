@@ -1,5 +1,6 @@
 <style>
   @import url("https://fonts.googleapis.com/css?family=Quicksand|Ubuntu&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
   #logo {
     margin-left: 0;
@@ -19,15 +20,17 @@
     color: #4f4f4f;
   }
 
-  #start-text {
-    font-family: "Quicksand", sans-serif;
-    padding: 2rem 1rem;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
+  #startpage-text {
+    font-family: "Montserrat", sans-serif;
+    font-variant-numeric: proportional-nums;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 28px;
-    color: #525f7f;
+    font-size: 18px;
+    line-height: 32px;
+    color: #495572;
+    padding: 2rem 1rem;
   }
 
   #small {
@@ -210,7 +213,7 @@
     <img width="800px" src="larresurs_big.png" alt="Lärresurs" />
   </div>
 </div>
-<div id="start-text">
+<div id="startpage-text">
   <p>
     Genom att använda moderna ramverk för webbutveckling skapar learnweb
     tillsammans med pedagoger framtidens digitala resurser.
@@ -220,8 +223,8 @@
   <div class="frameworks">
     <h2>Webbutveckling</h2>
     <p>
-      Vi gör det möjligt för företag och utbildningsorganisationer att arbeta
-      effektivt med kunskapshantering.
+      Vi fokuserar på tekniken så att pedagoger kan fokusera på innehållet.
+      Tillsammans skapar det en kreativ miljö för utvecklare och pedagoger.
     </p>
     <br />
     <a class="learn-more" style="float: right;" href="webdesign">Läs mer</a>
