@@ -1,14 +1,82 @@
 <style>
   @import url("https://fonts.googleapis.com/css?family=Quicksand|Ubuntu&display=swap");
-  img {
+
+  /* img {
     display: flex;
     margin-top: 3rem;
     margin-bottom: 5rem;
     width: 50%;
+  } */
+
+  img {
+    display: flex;
+    margin-bottom: 5rem;
+    margin: auto;
+    padding: 1rem 0;
   }
+
+  #svelte-img {
+    width: 200px;
+  }
+
+  #vue-img {
+    width: 200px;
+  }
+
+  #bulma-img {
+    width: 200px;
+  }
+
+  #tailwind-img {
+    width: 200px;
+  }
+
+  #adapt {
+    width: 200px;
+  }
+
+  #e-course {
+    width: 260px;
+  }
+
+  #demo {
+    width: 260px;
+  }
+
+  #vuepress {
+    width: 200px;
+  }
+
+  #talsynt1 {
+    width: 100px;
+  }
+
+  #talsynt2 {
+    width: 200px;
+  }
+
+  .ingress {
+    margin-bottom: 2rem;
+  }
+
+  .contact-button {
+    margin-top: 2rem;
+  }
+
+  #contact:after {
+    padding-left: 0.5rem;
+    content: url("arrow-2.svg");
+  }
+
+  .card-footer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
   .accesibility-2 {
-    width: 100% !important;
+    min-width: 60% !important;
   }
+
   .contact-button {
     margin-top: 2rem;
   }
@@ -26,55 +94,153 @@
     margin: 4rem 0;
   }
 
+  .accesibility {
+    display: block;
+  }
+
   @media (min-width: 40rem) {
+    #talsynt1 {
+      width: 200px;
+    }
+
+    #talsynt2 {
+      width: 400px;
+    }
+
+    .contact-button {
+      text-align: right;
+    }
+
+    #e-course {
+      width: 460px;
+    }
+
+    .card {
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+      margin-left: 3rem;
+      -webkit-box-direction: normal;
+      font-size: 62.5%;
+      font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      font-feature-settings: "pnum";
+      font-variant-numeric: proportional-nums;
+      box-sizing: border-box;
+      background: #fff;
+      will-change: transform;
+      border-radius: 6px;
+      position: relative;
+      width: 55%;
+      transform-origin: 50% 100%;
+      transform: scale(1);
+      opacity: 1;
+      transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in,
+        opacity 0.2s;
+      box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3),
+        0 -6px 16px -6px rgba(0, 0, 0, 0.025), 0 0 20px rgba(0, 0, 0, 0.04);
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      background: #f6f9fc;
+      margin-bottom: 5rem;
+    }
+
+    .card-link {
+      color: #6772e5;
+      font-weight: 500;
+      transition: color 0.1s ease;
+      cursor: pointer;
+      padding: 16px 34px 22px;
+      width: 100%;
+      text-align: center;
+      font-size: 15px;
+      line-height: 28px;
+    }
+
     figcaption {
       margin-top: 1rem;
     }
+
     img {
-      display: block;
-      margin-top: 4rem;
-      margin-bottom: 5rem;
+      display: flex;
+      max-width: 100%;
     }
+
+    .adapt {
+      width: 200px;
+      margin: auto;
+    }
+
+    .vuepress-card {
+      width: 200px;
+      margin: auto;
+    }
+
+    h1 {
+      margin-top: 10rem;
+    }
+
     h1,
     h2 {
       font-family: "Quicksand", sans-serif;
     }
+
     p {
       font-family: "Quicksand", sans-serif;
     }
+
     .framework {
       display: flex;
       justify-content: space-between;
       margin-top: 1rem;
       margin-bottom: 2rem;
     }
+
     #svelte-img {
       width: 18%;
       height: 50px;
     }
+
     #vue-img {
       width: 18%;
       height: 60px;
     }
+
     #bulma-img {
       width: 18%;
       height: 50px;
     }
+
     #tailwind-img {
       width: 25%;
       height: 50px;
     }
+
     .adapt,
     .vuepress,
     .accesibility-1 {
       width: 30%;
     }
+
     .accesibility-2 {
       width: 50%;
     }
-    .multiple-choice {
-      width: 80%;
+
+    .accesibility {
+      display: flex;
     }
+
+    .multiple-choice {
+      width: 50%;
+    }
+
     .e-course {
       width: 80%;
     }
@@ -86,9 +252,9 @@
 </svelte:head>
 
 <p class="ingress">
-  När Facebook för 6 år sedan lanserade React var det början på en utveckling
-  som idag lett fram till flera fantastiska ramverk för att skapa
-  webbapplikationer. En arkitektur som vi har anammat är
+  Det absolut senaste inom webbutveckling kallas serverless. För oss innebär det
+  att vi kan bygga appar utan att vara begränsade till något specifikt system.
+  Den arkitekturen 
   <a href="https://jamstack.org/">JAMstack</a>
   och vi använder idag främst
   <a href="https://svelte.dev">Svelte</a>
@@ -101,13 +267,9 @@
 </p>
 
 <div class="framework">
-  <!-- <img width="75" height="23" src="svelte.png" alt="Svelte" /> -->
   <img id="svelte-img" src="svelte.png" alt="Svelte" />
-  <!-- <img width="60" height="23" src="vue.png" alt="Vue" /> -->
   <img id="vue-img" src="vue.png" alt="Vue" />
-  <!-- <img width="65" height="23" src="bulma.png" alt="Bulma" /> -->
   <img id="bulma-img" src="bulma.png" alt="Bulma" />
-  <!-- <img width="100" height="22" src="tailwind.png" alt="Tailwind" /> -->
   <img id="tailwind-img" src="tailwind.png" alt="Tailwind" />
 </div>
 
@@ -119,13 +281,18 @@
   . Med Adapt får man SCORM-funktionalitet vilket gör att man kan kommunicera
   med ett LMS för att spara t.ex. progression eller resultat från ett test etc.
 </p>
-<p>
+<!-- <p>
   <a href="pedagogy">Läs mer</a>
   om SCORM och LMS.
-</p>
+</p> -->
 
-<div class="adapt">
-  <img src="adapt.png" alt="adapt" />
+<div class="card">
+  <div class="adapt">
+    <img id="adapt" src="adapt.png" alt="adapt" />
+  </div>
+  <div class="card-footer">
+    <a class="card-link" href="https://www.adaptlearning.org/">Adapt</a>
+  </div>
 </div>
 
 <h1>Teknisk dokumentation</h1>
@@ -138,8 +305,13 @@
   funktioner.
 </p>
 
-<div class="vuepress">
-  <img src="vuepress.png" alt="Vuepress" />
+<div class="card">
+  <div class="vuepress-card">
+    <img id="vuepress" src="vuepress.png" alt="Vuepress" />
+  </div>
+  <div class="card-footer">
+    <a class="card-link" href="https://vuepress.vuejs.org/">Vuepress</a>
+  </div>
 </div>
 
 <h1>Tillgänglighet</h1>
@@ -150,14 +322,16 @@
   innehållet för långsamma nätverk.
 </p>
 
-<div class="accesibility-1">
-  <img src="talsyntes.png" alt="Tillgänglighet" />
-</div>
-<div class="accesibility-2">
-  <img style="width: 300px;" src="responsiv.png" alt="Tillgänglighet" />
+<div class="accesibility">
+  <div class="accesibility-1">
+    <img id="talsynt1" src="talsyntes.png" alt="Tillgänglighet" />
+  </div>
+  <div class="accesibility-2">
+    <img id="talsynt2" src="responsiv.png" alt="Tillgänglighet" />
+  </div>
 </div>
 
-<div style="margin-bottom: 7rem;">
+<!-- <div style="margin-bottom: 7rem; margin-top: 3rem">
   <h1>Webbpedagogik</h1>
 
   <p>
@@ -172,23 +346,24 @@
     <a href="https://learnweb.se/pedagogy">Läs mer</a>
     om webbpedagogik.
   </p>
-</div>
+</div> -->
 
-<h1>Exempelprojekt</h1>
+<h1 style="margin-top: 6rem;">Exempelprojekt</h1>
 
 <div style="margin-bottom: 3rem;">
   <p>Multiple choice utvecklad i Svelte.</p>
-  <div class="contact-button">
+  <div class="demo-button">
     <a href="https://multiple-choice.learnwebleif.now.sh/">
       <button id="send">Demo</button>
     </a>
   </div>
+  <br />
   <div class="multiple-choice">
-    <img src="mc.png" alt="Multiple choice" />
+    <img id="demo" src="mc.png" alt="Multiple choice" />
   </div>
 </div>
 
-<h2>E-kurser</h2>
+<h1>E-kurser</h1>
 
 <p>
   Vi har utvecklat hundratals e-kurser och digitala resureser genom åren med
@@ -198,27 +373,27 @@
 
 <div class="e-course">
   <figure>
-    <img src="stom-ex.png" alt="exempel på e-kurs" />
+    <img id="e-course" src="stom-ex.png" alt="exempel på e-kurs" />
     <figcaption>Stöd- och matchningstjänst</figcaption>
   </figure>
 </div>
 
 <div class="e-course">
   <figure>
-    <img src="kurs-its.jpg" alt="exempel på e-kurs" />
+    <img id="e-course" src="kurs-its.jpg" alt="exempel på e-kurs" />
     <figcaption>Kurs i LMS (itslearning)</figcaption>
   </figure>
 </div>
 
 <div class="e-course">
   <figure>
-    <img src="teknisk-dok.jpg" alt="exempel på e-kurs" />
+    <img id="e-course" src="teknisk-dok.jpg" alt="exempel på e-kurs" />
     <figcaption>Teknisk dokumentation</figcaption>
   </figure>
 </div>
 
 <div class="contact-button">
-  <a href="contact">
+  <a id="contact" href="contact">
     <button id="send">Kontakta oss</button>
   </a>
 </div>

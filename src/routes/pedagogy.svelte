@@ -8,6 +8,7 @@
     margin: auto;
     padding: 2rem 0;
   }
+
   .contact-button {
     margin-top: 2rem;
   }
@@ -109,12 +110,15 @@
       width: 200px;
       margin: auto;
     }
+    
     .itslearning {
       width: 130px;
     }
+
     .canvas {
       width: 130px;
     }
+
     .moodle {
       width: 130px;
     }
