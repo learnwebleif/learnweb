@@ -252,18 +252,19 @@
 </svelte:head>
 
 <p class="ingress">
-  Det absolut senaste inom webbutveckling kallas serverless. För oss innebär det
-  att vi kan bygga appar utan att vara begränsade till något specifikt system.
-  Den arkitekturen 
+  Vi bygger appar med arkitekturen
   <a href="https://jamstack.org/">JAMstack</a>
-  och vi använder idag främst
+  och standarden SCORM vilket gör att apparna inte blir beroende av någon
+  specifik databas eller server. Vi använder idag främst
   <a href="https://svelte.dev">Svelte</a>
   och
   <a href="https://vuejs.org/">Vue</a>
   kombinerat med
   <a href="https://bulma.io/">Bulma</a>
   eller
-  <a href="https://tailwindcss.com/">tailwindcss.</a>
+  <a href="https://tailwindcss.com/">tailwindcss</a>
+  men kan naturligtvis använda andra ramverk eller bara ren html, css och
+  javascript för specifika önskemål.
 </p>
 
 <div class="framework">
