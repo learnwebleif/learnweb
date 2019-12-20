@@ -160,7 +160,7 @@
 </p>
 <p>
   Genom ett samarbete mellan pedagoger och webbutvecklare finns nu fantastiska
-  möjligheter att skapa framtidens digitala resurser.Vi har effektiva verktyg
+  möjligheter att skapa framtidens digitala resurser. Vi har effektiva verktyg
   och metoder som gör det möjligt att skapa innehåll oavsett vilket LMS som
   används. Vissa LMS kan importera SCORM-objekt direkt annars kan lösningen vara
   att använda LTI. Vi har erfarenhet att arbeta med t.ex. itslearning, Canvas
