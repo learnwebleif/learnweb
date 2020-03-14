@@ -106,12 +106,12 @@
   </div>
   <div class="menu-items">
     <ul>
-      <li>
+      <!-- <li>
         <a class={segment === 'Github' ? 'selected' : ''} href="https://github.com/learnwebleif/learnweb"><img width="20px" src="github.svg" alt="Github"></a>
-      </li>
-      <li>
+      </li> -->
+      <!-- <li>
         <a class={segment === 'kontakt' ? 'selected' : ''} href="contact">kontakt</a>
-      </li>
+      </li> -->
 
       <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->

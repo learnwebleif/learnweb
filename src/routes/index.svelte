@@ -13,11 +13,20 @@
     color: #4f4f4f;
   }
 
+  #hi {
+    font-family: "Quicksand", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #4f4f4f;
+    padding-top: 5rem;
+  }
+
   #logo-text {
     font-family: "Quicksand", sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
     color: #4f4f4f;
+    padding-bottom: 5rem;
   }
 
   #startpage-text {
@@ -175,7 +184,7 @@
 </svelte:head>
 
 <div class="page-container">
-  <svg
+  <!-- <svg
     id="logo"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -200,8 +209,9 @@
         learnweb
       </text>
     </g>
-  </svg>
-  <h2 id="logo-text">Utveckling av digitala lärresurser</h2>
+  </svg> -->
+  <h1 id="hi">Hi!</h1>
+  <h2 id="logo-text">We are currently working on a new project. Welcome back in the future...</h2>
   <div class="startImage-small">
     <img
       id="small"
@@ -209,17 +219,17 @@
       src="larresurs.png"
       alt="Lärresurs" />
   </div>
-  <div class="startImage-big">
+  <!-- <div class="startImage-big">
     <img width="800px" src="larresurs_big.png" alt="Lärresurs" />
-  </div>
+  </div> -->
 </div>
-<div id="startpage-text">
+<!-- <div id="startpage-text">
   <p>
     Genom att använda moderna ramverk för webbutveckling skapar learnweb
     tillsammans med pedagoger framtidens digitala resurser.
   </p>
-</div>
-<div class="service">
+</div> -->
+<!-- <div class="service">
   <div class="frameworks">
     <h2>Webbutveckling</h2>
     <p>
@@ -238,4 +248,4 @@
     <br />
     <a class="learn-more" style="float: right;" href="pedagogy">Läs mer</a>
   </div>
-</div>
+</div> -->
