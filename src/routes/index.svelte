@@ -212,13 +212,13 @@
   </svg> -->
   <h1 id="hi">Hi!</h1>
   <h2 id="logo-text">We are currently working on a new project. Welcome back in the future...</h2>
-  <div class="startImage-small">
+  <!-- <div class="startImage-small">
     <img
       id="small"
       style="padding-top:3rem;"
       src="larresurs.png"
       alt="Lärresurs" />
-  </div>
+  </div> -->
   <!-- <div class="startImage-big">
     <img width="800px" src="larresurs_big.png" alt="Lärresurs" />
   </div> -->
