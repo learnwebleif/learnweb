@@ -212,6 +212,7 @@
   </svg> -->
   <h1 id="hi">Hi!</h1>
   <h2 id="logo-text">We are currently working on a new project. Welcome back in the future...</h2>
+  
   <!-- <div class="startImage-small">
     <img
       id="small"
